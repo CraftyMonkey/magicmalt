@@ -1,8 +1,8 @@
 {
-  "name": "nextplate",
+  "name": "magicmalt",
   "version": "3.0.0",
-  "description": "Nextjs and Tailwindcss boilerplate",
-  "author": "zeon.studio",
+  "description": "MagicMalt Website",
+  "author": "craftymonkey",
   "license": "MIT",
   "packageManager": "yarn@1.22.19",
   "scripts": {
