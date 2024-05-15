@@ -1,20 +1,19 @@
 {
   "name": "magicmalt",
-  "version": "3.0.0",
+  "version": "1.0.0",
   "description": "MagicMalt Website",
   "author": "craftymonkey",
   "license": "MIT",
-  "packageManager": "yarn@1.22.19",
   "scripts": {
-    "dev": "yarn generate-json && next dev",
-    "build": "yarn generate-json && next build",
+    "dev": "npm run generate-json && next dev",
+    "build": "npm run generate-json && next build",
     "preview": "next start",
     "postbuild": "next-sitemap",
     "lint": "next lint",
     "format": "prettier -w ./src",
     "generate-json": "node scripts/jsonGenerator.js",
-    "remove-darkmode": "node scripts/removeDarkmode.js && yarn format",
-    "remove-multilang": "node scripts/removeMultilang.js && yarn format"
+    "remove-darkmode": "node scripts/removeDarkmode.js && npm run format",
+    "remove-multilang": "node scripts/removeMultilang.js && npm run format"
   },
   "engines": {
     "node": ">=18.0.0"
@@ -49,7 +48,7 @@
     "@types/react": "18.3.2",
     "@types/react-dom": "18.3.0",
     "autoprefixer": "^10.4.19",
-    "eslint": "^9.2.0",
+    "eslint": "^8.0.0",
     "eslint-config-next": "14.2.3",
     "postcss": "^8.4.38",
     "prettier": "^3.2.5",
